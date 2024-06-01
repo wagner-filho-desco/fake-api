@@ -1,0 +1,62 @@
+{
+  "login": {
+    "user": {
+      "id": "a1b2",
+      "accountId": "c4322sw2",
+      "name": "Wagner Filho",
+      "email": "wagner.filho@descomplica.com.br",
+      "role": "admin"
+    },
+    "token": {
+      "access_token": "xxx"
+    }
+  },
+  "me": {
+    "id": "a1b2",
+    "name": "Wagner Filho",
+    "email": "wagner.filho@descomplica.com.br"
+  },
+  "users": [
+    {
+      "id": "a1b2",
+      "accountId": "c4322sw2",
+      "name": "Wagner Filho",
+      "email": "wagner.filho@descomplica.com.br",
+      "role": "admin"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "f172",
+      "name": "Descomplica"
+    }
+  ],
+  "applications": [
+    {
+      "id": "application-1",
+      "name": "Postgrad",
+      "description": "LMS PostGrad",
+      "organization": {
+        "id": "f172"
+      }
+    },
+    {
+      "id": "ceca",
+      "name": "Undergrad",
+      "description": "LMS",
+      "organization": {
+        "id": "f172"
+      }
+    }
+  ],
+  "api-keys": [
+    {
+      "id": "b2b1",
+      "name": "Postgrad Api Key",
+      "key": "xxx",
+      "application": {
+        "id": "application-1"
+      }
+    }
+  ]
+}
